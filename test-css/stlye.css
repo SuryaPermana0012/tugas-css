@@ -1,0 +1,267 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+/*navbar*/
+.navigation-bar {
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    z-index: 99;
+    font-weight: 600;
+}
+
+.nav-wrapper {
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.link ul{
+    display: flex;
+    gap: 48px;
+    font-size: 20px;
+}
+
+.logo i {
+    color: aqua;
+    font-size:36px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo p {
+    color: aqua;
+    font-size: 20px;
+}
+
+/*banner*/
+.banner {
+    background-image: url(layanan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.banner .container {
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.banner-wrapper {
+    background-color: rgba(0, 255, 255, 0.242);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.banner p {
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+.banner a {
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 7px;
+}
+
+/*product*/
+.product {
+    color: aqua;
+    margin-top: 72px;
+}
+
+.product .title {
+    text-align: center;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    margin-top: 36px;
+}
+
+.product-content .content {
+    display: grid;
+    place-items: center;
+}
+
+.product h1 {
+    text-align: center;
+}
+
+.product p {
+    text-align: center;
+    color: black;
+}
+
+.product i {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+/*about*/
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.about {
+    margin: 100px 0;
+}
+
+.about h1 {
+    color: aqua;
+}
+
+.about-wrapper img {
+    width: 100%;
+    border-radius: 7px;
+    margin-left: 30px;
+}
+
+/*testimoni*/
+.testi .testi-content {
+    align-items: center;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap:  24px;
+}
+
+.testi {
+    margin: 100px 0;
+}
+
+.testi .container {
+    position: relative;
+}
+
+.testi img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testi i {
+    position: absolute;
+    font-size: 100px;
+    cursor: pointer;
+    top: -50%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.bx-left-arrow-alt {
+    left: 0;
+}
+
+.bx-right-arrow-alt {
+    right: 0;
+}
+
+.testi h3 {
+    color: aqua;
+}
+
+/*email*/
+.email {
+    background-color: aqua;
+    padding: 56px;
+}
+
+input {
+    width: 500px;
+    padding: 12px 0;
+    border-radius: 7px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.email a {
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 7px;
+}
+
+.email-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    margin: 80px 0;
+    align-items: center;
+    display: flex;
+}
+
+.contact-box {
+    color: aqua;
+    text-align: center
+}
+
+.contact-box a {
+    color: black;
+    font-size: 36px;
+    margin: 0 12px;
+}
+
+.contact-box a:hover {
+    color: aqua;
+}
+
+/*footer*/
+footer {
+    background-color: aqua;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
